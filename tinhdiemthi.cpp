@@ -7,9 +7,17 @@ using namespace std;
 
 int main()
 {
-	float KT1, KT2, KT3, GK, CK;
-	cout << "Nhap diem kiem tra la 1, 2, 3, giua ki va cuoi ki: ";
-	cin >> KT1 >> KT2 >> KT3 >> GK >> CK;
+	float KT1, KT2, KT3, GK, CK;	
+	cout << "Nhap diem kiem tra lan 1: ";
+	cin >> KT1;	
+	cout << "Nhap diem kiem tra lan 2: ";
+	cin >> KT2;
+	cout << "Nhap diem kiem tra lan 3: ";
+	cin >> KT3;
+	cout << "Nhap diem kiem tra giua ki: ";
+	cin >> GK;
+	cout << "Nhap diem kiem tra cuoi ki: ";
+	cin >> CK;
 	cout << "==========Diem kiem tra==========" << endl;
 	cout << " Nhap diem kiem tra " << KT1 << endl;
 	cout << " Nhap diem kiem tra " << KT2 << endl;
@@ -26,7 +34,7 @@ int main()
 	cout << "Diem thi cuoi ki: " << CK << endl;
 	cout << ".........................." << endl;
 	cout << "Tong diem: " << KT1 + KT2 + KT3 + CK + GK << endl;
-
+	return 0;
 
 }
 
